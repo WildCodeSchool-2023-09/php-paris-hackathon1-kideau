@@ -11,4 +11,9 @@ class HomeController extends AbstractController
     {
         return $this->twig->render('Home/index.html.twig');
     }
+
+    public function papa(): string
+    {
+        return $this->twig->render('Home/index-papa.html.twig');
+    }
 }
