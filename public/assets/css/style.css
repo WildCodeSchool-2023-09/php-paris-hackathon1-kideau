@@ -580,6 +580,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #reponse_10 {
@@ -642,6 +643,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #reponse_11 {
@@ -705,6 +707,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #reponse_12 {
@@ -829,6 +832,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 5rem;
 }
 
 #reponse_14 {
@@ -844,7 +848,7 @@ h1 {
 #reponse_14 p {
     border-radius: 20px;
     background-color: #CF2525;
-    width: 120px;
+    width: 155px;
     height: 69px;
     display: flex;
     justify-content: center;
@@ -854,7 +858,7 @@ h1 {
     margin-bottom: 1rem;
     margin-top: 1rem;
     color: #E7B917;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #back_14 {
@@ -892,6 +896,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 1.5rem;
 }
 
 #reponse_15 {
@@ -954,6 +959,7 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
+    padding-top: 3rem;
 }
 
 #reponse_16 {
