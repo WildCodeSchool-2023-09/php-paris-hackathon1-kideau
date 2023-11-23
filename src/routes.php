@@ -10,4 +10,6 @@ return [
     '' => ['HomeController', 'index',],
     'gift/first' => ['GiftController', 'firstGift',],
     'gift/second' => ['GiftController', 'secondGift',],
+    'quizz' => ['HomeController', 'quizz',],
+    'quizzz' => ['HomeController', 'papa',],
 ];

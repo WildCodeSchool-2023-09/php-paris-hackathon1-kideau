@@ -1,5 +1,10 @@
 @media screen and (max-width: 426px) {
 
+    html * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         background: url("/assets/images/christmas.png"), lightgray 50% / cover no-repeat;
         background-size: 425px;
@@ -61,7 +66,12 @@
         margin-left: 2rem;
     }
 
-    #gift-idea h2 {
+    #gift-idea a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #gift-idea a h2 {
         justify-self: flex-end;
         text-align: center;
         font-size: 40px;
