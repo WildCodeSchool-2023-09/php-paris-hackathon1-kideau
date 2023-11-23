@@ -30,14 +30,14 @@ let back14 = document.getElementById("back_14");
 let back15 = document.getElementById("back_15");
 let back16 = document.getElementById("back_16");
 
-back2.addEventListener("click", function () {
-    qrr2.style.display = "none";
-    qrr1.style.display = "block";
+back1.addEventListener("click", function () {
+    qrr1.style.display = "none";
+    qrr2.style.display = "block";
 });
 
 back3.addEventListener("click", function () {
     qrr3.style.display = "none";
-    qrr2.style.display = "block";
+    qrr1.style.display = "block";
 });
 
 back4.addEventListener("click", function () {

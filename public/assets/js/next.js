@@ -27,12 +27,12 @@ let qr8 = document.getElementById("question_reponse8");
 
 reponse1.addEventListener("click", function () {
     qr1.style.display = "none";
-    qr2.style.display = "block";
+    qr3.style.display = "block";
 });
 
 reponse2.addEventListener("click", function () {
     qr2.style.display = "none";
-    qr3.style.display = "block";
+    qr1.style.display = "block";
 });
 
 reponse3.addEventListener("click", function () {

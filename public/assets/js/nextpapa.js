@@ -5,6 +5,7 @@ let question13 = document.getElementById("question_13");
 let question14 = document.getElementById("question_14");
 let question15 = document.getElementById("question_15");
 let question16 = document.getElementById("question_16");
+let question17 = document.getElementById("question_17");
 
 let reponse10 = document.getElementById("reponse_10");
 let reponse11 = document.getElementById("reponse_11");
@@ -13,6 +14,7 @@ let reponse13 = document.getElementById("reponse_13");
 let reponse14 = document.getElementById("reponse_14");
 let reponse15 = document.getElementById("reponse_15");
 let reponse16 = document.getElementById("reponse_16");
+let reponse17 = document.getElementById("reponse_17");
 
 let qr10 = document.getElementById("question_reponse10");
 let qr11 = document.getElementById("question_reponse11");
@@ -21,6 +23,7 @@ let qr13 = document.getElementById("question_reponse13");
 let qr14 = document.getElementById("question_reponse14");
 let qr15 = document.getElementById("question_reponse15");
 let qr16 = document.getElementById("question_reponse16");
+let qr17 = document.getElementById("question_reponse17");
 
 
 reponse10.addEventListener("click", function () {
@@ -55,4 +58,9 @@ reponse15.addEventListener("click", function () {
 
 reponse16.addEventListener("click", function () {
     qr16.style.display = "none";
+});
+
+reponse17.addEventListener("click", function () {
+    qr17.style.display = "none";
+    qr10.style.display = "block";
 });

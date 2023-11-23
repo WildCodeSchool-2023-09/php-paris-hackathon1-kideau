@@ -4,7 +4,7 @@ body {
     font-family: 'Mountains of Christmas';
 }
 
-#question_reponse2 {
+#question_reponse1 {
     display: none;
 }
 
@@ -29,6 +29,10 @@ body {
 }
 
 #question_reponse8 {
+    display: none;
+}
+
+#question_reponse10 {
     display: none;
 }
 
@@ -1000,6 +1004,68 @@ h1 {
 }
 
 #back_16 img {
+    width: 60px;
+    height: 50px;
+    color: #fff;
+
+}
+
+#question_17 {
+    width: 300px;
+    height: 265px;
+    border-radius: 20px;
+    background-color: #ffffff71;
+    margin-right: auto;
+    margin-left: auto;
+    stroke: #fff;
+    stroke-width: 5px;
+}
+
+#question_17 p {
+    color: #0A0909;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#reponse_17 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#reponse_17 p {
+    border-radius: 20px;
+    background-color: #CF2525;
+    width: 120px;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #E7B917;
+    font-size: 40px;
+}
+
+#back_17 {
+    border-radius: 20px;
+    background-color: #E7B917;
+    width: 100px;
+    height: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back_17 img {
     width: 60px;
     height: 50px;
     color: #fff;
