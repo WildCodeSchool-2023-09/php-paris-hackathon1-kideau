@@ -1,21 +1,26 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/assets/images/favicon.png">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="/assets/images/favicon.png">
 
-    <title>{% block title %}{% endblock %}</title>
+		<title>
+			{% block title %}{% endblock %}
+		</title>
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-    {% block stylesheet %}{% endblock %}
-</head>
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet"> {% block stylesheet %}{% endblock %}
+		</head>
 
-<body>
-    {% block content %}{% endblock %}
-    {% block javascript %}{% endblock %}
-</body>
-</html>
-
-
+		<body>
+			{% block content %}{% endblock %}
+			{% block javascript %}
+				<script src="/assets/js/next.js"></script>
+				<script src="/assets/js/previous.js"></script>
+			{% endblock %}
+		</body>
+	</html>

@@ -1,11 +1,11 @@
-let qr1 = document.getElementById("question_reponse1");
-let qr2 = document.getElementById("question_reponse2");
-let qr3 = document.getElementById("question_reponse3");
-let qr4 = document.getElementById("question_reponse4");
-let qr5 = document.getElementById("question_reponse5");
-let qr6 = document.getElementById("question_reponse6");
-let qr7 = document.getElementById("question_reponse7");
-let qr8 = document.getElementById("question_reponse8");
+let qrr1 = document.getElementById("question_reponse1");
+let qrr2 = document.getElementById("question_reponse2");
+let qrr3 = document.getElementById("question_reponse3");
+let qrr4 = document.getElementById("question_reponse4");
+let qrr5 = document.getElementById("question_reponse5");
+let qrr6 = document.getElementById("question_reponse6");
+let qrr7 = document.getElementById("question_reponse7");
+let qrr8 = document.getElementById("question_reponse8");
 
 let back1 = document.getElementById("back_1");
 let back2 = document.getElementById("back_2");
@@ -17,36 +17,36 @@ let back7 = document.getElementById("back_7");
 let back8 = document.getElementById("back_8");
 
 back2.addEventListener("click", function () {
-    qr2.style.display = "none";
-    qr1.style.display = "block";
+    qrr2.style.display = "none";
+    qrr1.style.display = "block";
 });
 
 back3.addEventListener("click", function () {
-    qr3.style.display = "none";
-    qr2.style.display = "block";
+    qrr3.style.display = "none";
+    qrr2.style.display = "block";
 });
 
 back4.addEventListener("click", function () {
-    qr4.style.display = "none";
-    qr3.style.display = "block";
+    qrr4.style.display = "none";
+    qrr3.style.display = "block";
 });
 
 back5.addEventListener("click", function () {
-    qr5.style.display = "none";
-    qr4.style.display = "block";
+    qrr5.style.display = "none";
+    qrr4.style.display = "block";
 });
 
 back6.addEventListener("click", function () {
-    qr6.style.display = "none";
-    qr5.style.display = "block";
+    qrr6.style.display = "none";
+    qrr5.style.display = "block";
 });
 
 back7.addEventListener("click", function () {
-    qr7.style.display = "none";
-    qr6.style.display = "block";
+    qrr7.style.display = "none";
+    qrr6.style.display = "block";
 });
 
 back8.addEventListener("click", function () {
-    qr8.style.display = "none";
-    qr7.style.display = "block";
+    qrr8.style.display = "none";
+    qrr7.style.display = "block";
 });
