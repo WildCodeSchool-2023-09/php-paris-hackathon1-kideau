@@ -1,0 +1,107 @@
+@media screen and (max-width: 426px) {
+
+    body {
+        background: url("/assets/images/christmas.png"), lightgray 50% / cover no-repeat;
+        background-size: 425px;
+    }
+
+    #ruban {
+        z-index: 1;
+        position: fixed;
+        height: 154px;
+        top: 45px;
+        left: -15px;
+    }
+
+    #gift-idea {
+        height: 600px;
+        width: 80%;
+        margin: 100px auto 100px auto;
+        background-color: #ffffff71;
+        border-radius: 1.2rem;
+        border: #e7b917 solid 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #gift-idea h1 {
+        justify-self: flex-start;
+        align-self: center;
+        text-align: center;
+        font-size: 40px;
+        font-family: MountainsOfChristmas;
+        margin: 1rem 0 1rem 0;
+    }
+
+    #marque-page {
+        justify-self: flex-start;
+        align-self: center;
+        width: 90%;
+        height: auto;
+        border-radius: 1.2rem;
+    }
+
+    #gift-idea p {
+        justify-self: flex-start;
+        align-self: center;
+        text-align: center;
+        font-size: 30px;
+        font-family: MountainsOfChristmas;
+        font-weight: bold;
+        margin: 0.5rem 0 0.5rem 0;
+    }
+
+    #gift-idea ul li {
+        justify-self: flex-start;
+        align-self: flex-start;
+        text-align: left;
+        font-size: 20px;
+        font-family: MountainsOfChristmas;
+        font-weight: bold;
+        margin-left: 2rem;
+    }
+
+    #gift-idea h2 {
+        justify-self: flex-end;
+        text-align: center;
+        font-size: 40px;
+        font-family: MountainsOfChristmas;
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+
+    #left-mistletoe {
+        z-index: 1;
+        position: fixed;
+        width: 94px;
+        height: 94px;
+        top: 628px;
+        left: 30px;
+        transform: scaleX(-1) rotate(80deg);
+    }
+
+    #right-mistletoe {
+        z-index: 1;
+        position: fixed;
+        width: 94px;
+        height: 94px;
+        top: 628px;
+        left: 300px;
+        transform: rotate(80deg);
+    }
+
+    #back {
+        z-index: 1;
+        position: fixed;
+        width: 70px;
+        height: 50px;
+        top: 20px;
+        left: 330px;
+        background-color: #cf2525;
+        border-radius: 1.2rem;
+        border: #f8f8f8 solid 5px;
+        opacity: 0.7;
+        padding: 0.2rem;
+    }
+
+}

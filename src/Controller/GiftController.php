@@ -4,7 +4,7 @@ namespace App\Controller;
 
 use App\Model\ItemManager;
 
-class ItemController extends AbstractController
+class GiftController extends AbstractController
 {
     /**
      * List items
@@ -90,5 +90,15 @@ class ItemController extends AbstractController
 
             header('Location:/items');
         }
+    }
+
+    public function firstGift(): string
+    {
+        return $this->twig->render('Gift/first_gift.html.twig');
+    }
+
+    public function secondGift(): string
+    {
+        return $this->twig->render('Gift/second_gift.html.twig');
     }
 }

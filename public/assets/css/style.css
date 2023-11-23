@@ -1,3 +1,9 @@
-body {
-    color: #f76c6c;
+@font-face {
+    font-family: MountainsOfChristmas;
+    src: url('../fonts/MountainsofChristmas.ttf');
+}
+
+html * {
+    margin: 0;
+    padding: 0;
 }
