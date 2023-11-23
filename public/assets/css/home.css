@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+@media screen and (max-width: 426px) {
+
+    html * {
+        margin: 0;
+    }
+
+    body {
+        background: url(../images/home/background.jpg), lightgray 50% / cover no-repeat;
+        background-size: 425px;
+    }
+
+    .home-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 97%;
+    }
+
+    .home-title {
+        text-align: center;
+        font-family: 'Mountains of Christmas', serif;
+        height: 50%;
+        width: 80%;
+        margin-top: 2rem;
+        font-size: 7rem;
+        color: #f8f8f8;
+    }
+
+    .home-slogan {
+        text-align: center;
+        font-family: 'Mountains of Christmas', serif;
+        font-size: 2.3rem;
+        margin-bottom: 4rem;
+        font-weight: 700;
+        color: #f8f8f8;
+        margin-top: 5.5rem;
+    }
+
+    .home-button {
+        border: #f8f8f8 5px solid;
+        border-radius: 1.2rem;
+        background-color: #CF2525;
+        opacity: 0.9;
+        padding: 2rem 0.8rem 2rem 0.8rem;
+        margin-top: 2rem;
+    }
+
+    .title-button {
+        text-align: center;
+        font-family: 'Mountains of Christmas', serif;
+        font-size: 2.2rem;
+        padding: 1rem 1rem 1rem 1rem;
+        font-weight: 700;
+        color: #E7B917;
+    }
+
+    .title-button a {
+        text-decoration: none;
+        color: #E7B917;
+    }
+    
+}
+    
