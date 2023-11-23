@@ -5,6 +5,7 @@ let qrr13 = document.getElementById("question_reponse13");
 let qrr14 = document.getElementById("question_reponse14");
 let qrr15 = document.getElementById("question_reponse15");
 let qrr16 = document.getElementById("question_reponse16");
+let qrr17 = document.getElementById("question_reponse17");
 
 let back10 = document.getElementById("back_10");
 let back11 = document.getElementById("back_11");
@@ -13,7 +14,13 @@ let back13 = document.getElementById("back_13");
 let back14 = document.getElementById("back_14");
 let back15 = document.getElementById("back_15");
 let back16 = document.getElementById("back_16");
+let back17 = document.getElementById("back_17");
 
+
+back10.addEventListener("click", function () {
+    qrr10.style.display = "none";
+    qrr17.style.display = "block";
+});
 
 back11.addEventListener("click", function () {
     qrr11.style.display = "none";
@@ -43,4 +50,8 @@ back15.addEventListener("click", function () {
 back16.addEventListener("click", function () {
     qrr16.style.display = "none";
     qrr15.style.display = "block";
+});
+
+back17.addEventListener("click", function () {
+    qrr17.style.display = "none";
 });
