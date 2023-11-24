@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("/christmas.jpg"), lightgray 50% / cover no-repeat;
+    background: url("/assets/images/christmas.png"), lightgray 50% / cover no-repeat;
     background-size: 425px;
     font-family: 'Mountains of Christmas';
 }
